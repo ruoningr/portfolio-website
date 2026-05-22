@@ -178,6 +178,17 @@
 html {
   scroll-behavior: smooth;
 }
+.project-card a {
+  text-decoration: none;
+
+  color: #1f2937;
+
+  transition: 0.3s;
+}
+
+.project-card a:hover {
+  color: #3b82f6;
+}
 </style>
 </head>
 
@@ -249,7 +260,14 @@ html {
       </div>
 
       <div class="project-card">
-        <h3>Object Detection Project</h3>
+        <h3>
+          <a
+            href="https://github.com/ruoningr/opencv-face-detection"
+            target="_blank"
+          >
+            OpenCV Face Detection Project
+          </a>
+        </h3>
         <p>
           A beginner Python/OpenCV project focused on learning basic computer vision concepts.
           Currently in progress.
